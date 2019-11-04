@@ -1,0 +1,16 @@
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z8s.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z6.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z7b.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z12.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z9b.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z1.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z9a.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z5b.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z4.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z7a.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z2.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z3.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z8c.dir
+/mnt/c/Users/mikol/Desktop/SK2/lab4/build/CMakeFiles/l3_z5a.dir

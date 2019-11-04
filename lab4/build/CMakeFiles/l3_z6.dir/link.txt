@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/l3_z6.dir/l3_z6.cpp.o  -o l3_z6 

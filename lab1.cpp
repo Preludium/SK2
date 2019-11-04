@@ -9,7 +9,7 @@ using namespace std;
 int main(int argc, char **argv) {
     int file;
 
-    uint16_t hostEndianessPort = 19;
+    uint16_t hostEndianessPort = 13;
 
     if((file = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) == -1)
     {
@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
     }
     sockaddr_in addr;
     addr.sin_family = AF_INET;
-    addr.sin_addr.s_addr = inet_addr("150.254.32.149");
+    addr.sin_addr.s_addr = inet_addr("127.0.0.1");
     addr.sin_port = htons(hostEndianessPort);
     
     if(connect(file, (sockaddr*) &addr, sizeof(addr)) == -1){

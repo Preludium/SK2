@@ -1,0 +1,42 @@
+1) funkcje blokujace
+    * read / recv / recvfrom - czekaja az przyjda dane
+    * write / send - czekaja az zwolni sie miejsce w buforze nadawczym
+    * connect - czeka az uda sie nawiazac polaczenie
+    * accept - czeka na nowe polaczenie
+    * gethostbyname / getaddrinfo - czeka na odpowiedź od serwera nazw, o ile zaszła konieczność odpytania
+    
+2) tryb blokujacy, nieblokujacy - roznice
+    * blokujace 
+        - jak bedzie zawalony bufor to blokuje wywolanie programu
+
+    * nieblokujace
+        - jeśli wykonanie żądanej funkcji na gnieździe w trybie nieblokującym nie jest możliwe bez czekania, 
+        to wykonanie funkcji nie powodzi się (zwracany jest wynik -1) a zmienna errno jest ustawiana na EAGAIN lub EWOULDBLOCK
+
+3) gwarancje funkcji write w blokujacym
+    * wysyla tyle ile fabryka dala, no chyba ze zawali bufor to freezuje programix
+
+4) wartosci zwracajace funkcje odbierajace
+    * 0 - nic nie odczytano
+    * >0 - ilosc odczytanych bajtow
+        -> mniej niz pojemnosc bufora - zapelnienie bufora odbierajacego, zakonczenie polaczenia
+    * -1 - blad, bufor zablokowany
+
+5) wartosci zwracajace funkcji wysylajacych
+    * 0 - nic nie wyslano
+    * >0 - ilosc wyslanych bajtow
+        -> mniej niz pojemnosc bufora - zapelnienie bufora wysylajacego, 
+    * -1 - blad, bufor zablokowany
+
+6) na czym polega protokół strumieniowy, szczególnie w kontekście wysyłania i odbierania danych
+
+7) czym może skutkować brak kontroli przepływu
+
+8) czym może skutkować brak uporządkowania i potwierdzania odebrania danych
+    * gubienie nieodebranych wiadomosci
+    * 
+
+9) praktyczne roznice i gwarancje TCP/UDP
+    * TCP nie gubi wiadomosci, gdzie w UDP musi o to zadbac programista
+    * UDP moze przesylac wiadomosci w innej kolejnosci, w TCP to nie wystepuje
+    * UDP zapewnia ze przesle niepodzielona wiadomosci

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/mikol/Desktop/SK2/lab4/l3_z5b.cpp
+unistd.h
+-
+errno.h
+-
+netdb.h
+-
+error.h
+-
+iostream
+-
+random
+-
+chrono
+-
+
